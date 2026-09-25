@@ -107,7 +107,7 @@ const students = [
 
 
 
-res += students.map(function (student) {
+res += students.map( (student) =>{
 
     return `<tr><td>${student.id}</td>
         <td>${student.name}</td>
